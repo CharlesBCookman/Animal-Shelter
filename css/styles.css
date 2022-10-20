@@ -1,10 +1,32 @@
-img {
-  filter: grayscale(50%);
-  width: 600px;
-  height: auto;
-  max-width: 30%;
-  max-height: auto;
-  border: 5px solid black;
-
+.newest-arrivals {
+  box-sizing: border-box;
+  padding-bottom: 50px;
 }
 
+.div-w-pic {
+  box-sizing:border-box;
+  float: left;
+  width: 25%;
+  height: 700px;
+}
+
+#Kuddles {
+  background-color: pink;
+}
+
+#Niko {
+  background-color: lightgreen;
+}
+
+#Leena {
+  background-color: peachpuff;
+}
+
+#Pilo {
+  background-color: lavender;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
