@@ -1,13 +1,16 @@
-.newest-arrivals {
+#newest-arrivals {
   box-sizing: border-box;
   padding-bottom: 50px;
+  background-color: black;
+  bottom: 1px;
 }
 
 .div-w-pic {
   box-sizing:border-box;
   float: left;
   width: 25%;
-  height: 700px;
+  height: 80vh;
+  text-align: center;
 }
 
 #Kuddles {
@@ -27,6 +30,9 @@
 }
 
 img {
-  max-width: 100%;
+  box-sizing:border-box;
+  max-width: 98%;
   max-height: auto;
+  margin: auto;
+  border: 5px ridge ;
 }
